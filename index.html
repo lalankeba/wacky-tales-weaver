@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wacky Tales Weaver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Wacky Tales Weaver</h1>
+    <div id="story-images">
+        <button onclick="clickManWithMuddyDog()" class="image-btn">
+            <img src="images/man-dog-with-mud.jpg" class="story-image">
+        </button>
+        <button onclick="clickManWashesDog()" class="image-btn">
+            <img src="images/man-washes-dog.jpg" class="story-image">
+        </button>
+        <button onclick="clickManSoapsDog()" class="image-btn">
+            <img src="images/man-soaps-dog.jpg" class="story-image">
+        </button>
+        <button onclick="clickManCuddlesDog()" class="image-btn">
+            <img src="images/man-cuddles-dog.jpg" class="story-image">
+        </button>
+    </div>
+    <div>
+        <button onclick="resetStory()">Reset Story</button>
+    </div>
+    <div id="story-display">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

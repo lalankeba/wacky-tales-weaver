@@ -1,0 +1,14 @@
+#story-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.story-image {
+    max-width: 200px;
+}
+
+.image-btn {
+    padding: 0;
+    margin: 4px;
+}
